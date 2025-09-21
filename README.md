@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+Portfolio Website
 
-## Project info
+This is a personal portfolio website built with React (TypeScript) and served via Nginx using Docker.
 
-**URL**: https://lovable.dev/projects/799d5728-3ed1-4457-8475-7f03538033cb
+🚀 Features
 
-## How can I edit this code?
+Responsive portfolio website built with React + TypeScript
 
-There are several ways of editing your application.
+Sections for About, Contact, Projects, Skills, and Experience
 
-**Use Lovable**
+Dockerized build: React app is built and served with Nginx
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/799d5728-3ed1-4457-8475-7f03538033cb) and start prompting.
+Simple, maintainable folder structure
 
-Changes made via Lovable will be committed automatically to this repo.
+🛠️ Tech Stack
 
-**Use your preferred IDE**
+React + TypeScript (Frontend)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Nginx (Static file server)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Docker (Containerization)
 
-Follow these steps:
+⚙️ Installation & Running Locally
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Clone the repository:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Open http://localhost:5173
+ in your browser.
 
-**Use GitHub Codespaces**
+🐳 Docker Build & Run
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Build the Docker image:
 
-## What technologies are used for this project?
+docker build -t portfolio-app .
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Run the container:
 
-## How can I deploy this project?
+docker run -p 80:80 portfolio-app
 
-Simply open [Lovable](https://lovable.dev/projects/799d5728-3ed1-4457-8475-7f03538033cb) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+Open http://localhost
+ to view your portfolio.
 
-Yes, you can!
+ 🌍 Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+You can deploy this app easily to:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+AWS EC2
+
+Azure
+
+Google Cloud
+
+Heroku (via Docker)
+
+Vercel / Netlify (without Docker)
