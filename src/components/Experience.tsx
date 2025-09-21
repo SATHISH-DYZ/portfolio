@@ -41,9 +41,9 @@ const Experience = () => {
 
                   <div className="space-y-4">
                     <p className="text-foreground/80 leading-relaxed">
-                      Gained hands-on experience in cloud infrastructure and DevOps practices during a 
-                      comprehensive 6-month internship program focused on real-world application deployment 
-                      and automation.
+                      Gained valuable hands-on experience in technology and development practices during a 
+                      comprehensive 6-month internship program focused on real-world applications and 
+                      digital solutions.
                     </p>
 
                     <div>
@@ -52,32 +52,32 @@ const Experience = () => {
                         <li className="flex items-start gap-3">
                           <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                           <span className="text-foreground/80">
-                            Deployed containerized applications on AWS EC2 instances with proper security configurations
+                            Developed technical skills through practical project implementations
                           </span>
                         </li>
                         <li className="flex items-start gap-3">
                           <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                           <span className="text-foreground/80">
-                            Implemented CI/CD pipelines and automated deployment processes
+                            Collaborated with cross-functional teams on various technical initiatives
                           </span>
                         </li>
                         <li className="flex items-start gap-3">
                           <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                           <span className="text-foreground/80">
-                            Configured Docker containers, Nginx load balancing, and security groups
+                            Applied problem-solving skills to support business objectives
                           </span>
                         </li>
                         <li className="flex items-start gap-3">
                           <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                           <span className="text-foreground/80">
-                            Collaborated on infrastructure automation and monitoring solutions
+                            Enhanced understanding of industry best practices and methodologies
                           </span>
                         </li>
                       </ul>
                     </div>
 
                     <div className="flex flex-wrap gap-2 mt-6">
-                      {["AWS EC2", "Docker", "Nginx", "CI/CD", "Linux", "DevOps", "Cloud Deployment"].map((skill) => (
+                      {["Team Collaboration", "Problem Solving", "Technical Development", "Project Management", "Communication", "Innovation"].map((skill) => (
                         <Badge key={skill} variant="secondary" className="bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
                           {skill}
                         </Badge>
