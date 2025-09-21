@@ -122,24 +122,23 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-border/50 shadow-card hover:shadow-glow transition-all duration-300">
-                <CardContent className="p-6 text-center">
-                  <h4 className="font-semibold mb-3">Professional Resume</h4>
-                  <p className="text-sm text-foreground/80 mb-4">
-                    Download my complete resume with detailed experience and project information
-                  </p>
-                  <Button 
-                    variant="secondary" 
-                    size="sm"
-                    className="bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
-                  >
-                    <Download className="w-4 h-4 mr-2" />
-                    Download Resume
-                  </Button>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
+             <Card className="border-border/50 shadow-card hover:shadow-glow transition-all duration-300">
+  <CardContent className="p-6 text-center">
+    <h4 className="font-semibold mb-3">Professional Resume</h4>
+    <p className="text-sm text-foreground/80 mb-4">
+      Download my complete resume with detailed experience and project information
+    </p>
+    <a
+      href="/assets/resume.pdf"
+      download="Sathish_Resume.pdf"
+      className="inline-flex items-center justify-center w-full px-4 py-2 bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground rounded-md shadow transition-all duration-300"
+    >
+      <Download className="w-4 h-4 mr-2" />
+      Download Resume
+    </a>
+  </CardContent>
+</Card>
+
 
           {/* Professional Summary */}
           <Card className="border-primary/20 shadow-card">

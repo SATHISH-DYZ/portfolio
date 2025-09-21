@@ -33,7 +33,7 @@ const Projects = () => {
         "Implemented data cleaning and preprocessing pipelines",
         "Performance optimization and model accuracy improvements"
       ],
-      technologies: ["Python", "TensorFlow", "Keras", "Docker", "Machine Learning", "Data Science", "Model Training"],
+      technologies: ["Python", "TensorFlow", "Keras", "Docker", "Machine Learning", "Model Training"],
       github: "https://github.com/SATHISH-DYZ",
       live: "#"
     }
@@ -130,16 +130,16 @@ const Projects = () => {
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold mb-4">
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  Latest Addition: Portfolio Website
+                     Portfolio Website
                 </span>
               </h3>
               <p className="text-foreground/80 mb-6 leading-relaxed">
                 This very portfolio website you're viewing! Built with modern React, TypeScript, and Tailwind CSS. 
                 Features responsive design, smooth animations, and professional UI components. Deployed using 
-                containerization with plans for AWS hosting.
+                containerization and AWS hosting.
               </p>
               <div className="flex flex-wrap gap-2 justify-center">
-                {["React", "TypeScript", "Tailwind CSS", "Responsive Design", "Modern UI/UX"].map((tech) => (
+                {["React", "TypeScript", "Tailwind CSS", "Responsive Design", "Modern UI/UX", "Docker", "AWS"].map((tech) => (
                   <Badge key={tech} variant="secondary" className="bg-primary/10 text-primary">
                     {tech}
                   </Badge>

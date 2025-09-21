@@ -8,7 +8,7 @@ const Skills = () => {
       title: "Cloud Platforms",
       icon: Cloud,
       color: "text-blue-400",
-      skills: ["AWS EC2", "AWS S3", "AWS IAM", "AWS VPC", "AWS CloudWatch", "AWS Lambda", "AWS RDS"]
+      skills: ["AWS EC2", "AWS S3", "AWS IAM", "AWS VPC", "AWS CloudWatch", "AWS Lambda", "AWS RDS", "AWS fsx" ,"microservices"]
     },
     {
       title: "Containerization",

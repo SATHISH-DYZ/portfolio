@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Mail, MapPin } from "lucide-react";
-import heroPortrait from "@/assets/hero-portrait.jpg";
+import heroPortrait from "@/assets/my.jpg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
